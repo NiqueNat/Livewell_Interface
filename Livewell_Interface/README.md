@@ -51,7 +51,8 @@ The user interface was designed with a focus on simplicity and ease of use, whil
  
 User testing and feedback were incorporated to improve the overall experience.
 
-The Livewell User Interface project 
+The Livewell User Interface project
+![20231003_175909](https://github.com/NiqueNat/Livewell_Interface/assets/70446500/9da02857-e2a0-4723-b9fa-0acbec04963c)
 ![Screen Shot 2023-10-03 at 3 16 57 PM](https://github.com/NiqueNat/Livewell_Interface/assets/70446500/99ff7c90-67f8-4824-86b3-b696dd322fe3)
 ![Screen Shot 2023-10-02 at 12 00 53 PM](https://github.com/NiqueNat/Livewell_Interface/assets/70446500/a959837b-eeae-4597-bb1d-3d0fdd9730cc)
 ![Screen Shot 2023-10-02 at 11 57 38 AM](https://github.com/NiqueNat/Livewell_Interface/assets/70446500/d9af0449-a2c9-4121-b980-9f28614051a1)
