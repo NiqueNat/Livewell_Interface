@@ -1,7 +1,7 @@
 # Livewell_Interface
 
-Welcome to Livewell Interface.
-Bringing all the lessons together.
+Welcome to Livewell Interface.<br>
+Bringing all the lessons together.<br>
 The Livewell User Interface project allows a user register for a personal account, where they are able to create, and search recipes. The searched recipes are retrived via a foodbank API from api-ninjas. The user created recipes can be edited, updtaed, and deleted. 
 
 Resources;<br>
