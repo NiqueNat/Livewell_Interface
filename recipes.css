@@ -1,0 +1,302 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a base font and text color */
+body {
+  font-family: Lobster, serif;
+  color: #222;
+  background: linear-gradient(100deg, #6858C5, #FA9E58, #521B27) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  max-width: 100vw;
+}
+
+main{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .jumbotron{
+    background-image: url("https://images.unsplash.com/photo-1422493757035-1e5e03968f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1408&q=80");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ /* Remove the underline from anchor links and set the text color */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Remove default list styles */
+ul {
+  list-style: none;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  transition: 0.5s;
+  z-index: 2;
+  background-color: rgba(252, 253, 253, 0.5);
+  padding: 1rem;
+}
+
+/* Centers the content in the container and provide some maximum width */
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* Styles for custom button */
+.btn {
+  display: inline-block;
+  background: #6858C5;
+  color: white;
+  padding: 10px 15px;
+  
+}
+
+/* Style the non-collapsed accordion buttons with a background */
+form {
+  background: rgba(206, 52, 150, 0.2);
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* opacity: 65%; */
+}
+ 
+
+  .text-box{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 18px 18px 20px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    text-align: center;
+   
+  }
+  
+  h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 25px auto;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+    
+  }
+
+  h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1rem;
+    /* font-weight: 400; */
+    margin: 5px;
+  }
+  
+  .live-img{
+    background-image: url("./Livewell.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1200px;
+    width: 100vh;
+    margin: 50px auto;
+    border-radius: 8px 8px 10px 10px;
+    box-shadow: 8px 8px 10px rgba(207, 144, 19, 0.2);
+    padding: 5px;
+  }
+
+  /*loging box atyling*/
+#login-form {
+  background: rgba(206, 52, 150, 0.2);
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  height: 450px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../landscape.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* opacity: 65%; */
+}
+ 
+#registration-form{
+  background: rgba(206, 52, 150, 0.2);
+  margin: 55px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  height: 450px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px 8px 6px 8px;
+    box-shadow: 0 0 10px rgba(158, 90, 192, 0.2) ; 
+    padding: 5px;
+    height: 450px;
+    width: 450px;
+}
+
+
+  #toggle-form-button{
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  input,
+  button {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    background-color: rgba(252, 253, 253, 0.5);
+    border-radius: 8px 8px 10px 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:hover {
+    background-color: rgba(252, 253, 253, 0.295);
+    border-radius: 8px 8px 10px 10px;
+    box-shadow: 0 4px 4px rgba(245, 158, 59, 0.616);
+    border: 1px solid #590316;
+    padding: 5px;
+  }
+  
+  button:hover {
+    background-color: rgba(252, 253, 253, 0.295);
+    border-radius: 8px 8px 10px 10px;
+    box-shadow: 0 4px 4px rgba(245, 158, 59, 0.616);
+    border: 1px solid #590316;
+    padding: 5px;
+  }
+  
+  
+textarea{
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px 8px 10px 10px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 5px 0;
+  opacity: 0.8;
+}
+  
+table{
+  border-collapse: collapse;
+  width: 100%;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px 8px 10px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 5px 0;
+  opacity: 0.8;
+}
+
+th{
+  background-color: #1c5c74;
+  color: white;
+  opacity: 0.8;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+tr:hover {background-color: #ddd;}
+
+th, td {
+  padding: 15px;
+  opacity: 0.8;
+}
+
+thead{
+  border-radius: 8px 8px 10px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 5px 0;
+  opacity: 0.8;
+}
+
+#search-form{
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Goal box */
+.grid-container {
+  background: inherit;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+}
+
+.user-data-entry {
+  
+  display: inline-block;
+  width: 45%;
+  margin: 25px 15px;
+  vertical-align: top;
+  background-color: rgba(252, 253, 253, 0.295);
+  border-radius: 8px;
+  text-align: center;
+}
+
+footer{
+  align-items: center;
+  padding: 40px 0;
+}
