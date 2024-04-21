@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Register</title>
+    <link rel="stylesheet" href="./css/recipes.css">
+</head>
+<body>
+    <h1>Login or Register</h1>
+
+    <div class="login">
+    <!-- Login Form -->
+    <form id="login-form" action="./login.php" method="post">
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" name="email" required>
+        
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="password" required>
+        
+        <button type="submit">Log in</button>
+    </form>
+
+    <!-- Registration Form (Initially Hidden) -->
+    <form id="registration-form" style="display: none;" action="./register.php" method="post">
+        <label for="register-email">Email:</label>
+        <input type="email" id="register-email" name="email" required>
+        
+        <label for="register-password">Password:</label>
+        <input type="password" id="register-password" name="password" required>
+        
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Button to Toggle Between Login and Registration Forms -->
+    <button id="toggle-form-button">Register Here!</button>
+</div>
+
+<footer>
+        <h3>Myrna Dominique @2023</h3>
+</footer>
+
+
+<!--Login/register logic-->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const loginForm = document.getElementById("login-form");
+            const registrationForm = document.getElementById("registration-form");
+            const toggleFormButton = document.getElementById("toggle-form-button");
+
+            // Add an event listener to toggle between login and registration forms
+            toggleFormButton.addEventListener("click", () => {
+                if (registrationForm.style.display === "none") {
+                    registrationForm.style.display = "block";
+                    loginForm.style.display = "none";
+                    toggleFormButton.textContent = "Login";
+                } else {
+                    registrationForm.style.display = "none";
+                    loginForm.style.display = "block";
+                    toggleFormButton.textContent = "Register";
+                }
+            });
+        });
+    </script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
